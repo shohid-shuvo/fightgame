@@ -1,0 +1,6 @@
+{
+  "name": "bdfight",
+  "description": "High-performance mobile-first 2D online multiplayer fighting game with deterministic simulation and rollback netcode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

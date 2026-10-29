@@ -1,0 +1,33 @@
+{
+  "fps": 60,
+  "stage": {
+    "width": 1280,
+    "floorY": 620,
+    "leftWall": 60,
+    "rightWall": 1220
+  },
+  "physics": {
+    "gravity": 1.25,
+    "jumpForce": -18.5,
+    "terminalVelocity": 22.0,
+    "walkForwardSpeed": 5.4,
+    "walkBackSpeed": 3.8,
+    "friction": 0.85
+  },
+  "combat": {
+    "maxHp": 1000,
+    "maxMeter": 1000,
+    "roundDurationSeconds": 99,
+    "superCost": 1000,
+    "normalLightDamage": 70,
+    "normalMediumDamage": 130,
+    "normalHeavyDamage": 210,
+    "specialDamage": 180,
+    "superDamage": 360,
+    "hitstopLight": 4,
+    "hitstopMedium": 6,
+    "hitstopHeavy": 9,
+    "hitstopSuper": 18,
+    "inputBufferFrames": 6
+  }
+}

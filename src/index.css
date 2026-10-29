@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-orbitron {
+    font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .font-chakra {
+    font-family: 'Chakra Petch', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .font-rajdhani {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Custom scrollbars for cyber look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #02040a;
+}
+::-webkit-scrollbar-thumb {
+  background: #00f0ff33;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff88;
+}
